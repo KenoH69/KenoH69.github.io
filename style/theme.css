@@ -1,0 +1,478 @@
+head,body{
+      margin: 0px;
+      padding: 0px;
+    background-color: darkslategrey;
+     background-size: fill;
+     
+     
+}
+/* home page */
+.homepage{
+  
+    background: lightslategrey;
+    height: 100px;
+    width: 100%;   
+    border-bottom: 2px solid black; 
+    color: white;
+    position: relative;
+}
+.home{
+    height: 50px;
+    width: 125px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.home:hover{
+      background: darkslategrey;
+      color: white;
+      font-size: 16px;
+      transition: all 500ms ease;   
+      border: solid white;
+      cursor: pointer;
+}
+.about{
+    height: 50px;
+    width: 125px;
+    border-radius: 8px;
+    border: 0;
+   
+
+}
+
+.about:hover{
+      background: darkslategrey;
+      color: white;
+      font-size: 16px;
+      transition: all 500ms ease;   
+      border: solid white;
+      cursor: pointer;
+
+}
+.lang{
+         position: absolute;
+        font-size: large;
+        top: 40%;
+        left: 0%;
+}
+.english{
+        position: absolute;
+        top: 36%;
+        left: 6%;
+        height: 30px; 
+        border-radius: 8px;  
+        border: 0;      
+}
+.english:hover{
+        background: darkslategrey;
+        color: white;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid white;
+        cursor: pointer;
+       
+}
+.dutch{
+        position: absolute;
+        top: 36%;
+        left: 11%;
+        height: 30px;
+        border-radius: 8px;
+        border: 0;
+
+}
+.dutch:hover{
+        background: darkslategrey;
+        color: white;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid white;
+        cursor: pointer;
+}
+.dropbtn {
+    left: 66%;
+    height: 50px;
+    width: 125px;
+    border-radius: 8px;
+    border: 0;
+    margin-left: 3px;
+    cursor: pointer;    
+  }
+  
+  
+  .dropbtn:hover{
+    background: darkslategrey;
+    color: white;
+    font-size: 16px;
+    transition: all 500ms ease;   
+    border: solid white;
+    cursor: pointer;
+
+  }
+  
+    
+  .dropdown {
+      cursor: pointer;
+      display: inline-block;
+      position: absolute;   
+      z-index: 1; 
+  }
+  
+ 
+  .dropdown-content {  
+        background-color: slategrey;
+        display: none;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+  }
+  
+  .dropdown-content:hover{
+    background: darkslategrey;
+    font-size: 16px;
+    transition: all 500ms ease;   
+    border: solid white;
+    cursor: pointer;
+  }
+  
+ 
+  .dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+      
+  }
+
+  .move{
+      
+    float: right;
+    padding-right: 400px;
+    margin-top: 20px;
+  }
+
+
+
+  .show {display:block;}
+  .dropdown-content a:hover {background-color: slategrey;}
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .visit{
+    position: absolute;
+    height: 50px;
+    width: 125px;
+    border-radius: 8px;
+    border: 0;
+    left: 45%;
+    top: 85%;
+  }
+  .visit:hover{
+        background: darkslategrey;
+        color: white;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid white;
+        cursor: pointer;
+  }
+
+  .insta{
+        position: absolute;
+       bottom: 0px;
+        right: 0px;
+        margin-right: 60px;
+        height: 55px;
+        width: 55px;
+  }
+  .insta:hover{
+          opacity: 0.7;
+  }
+  .mail{
+          position: absolute;
+          bottom: 0px;
+          right: 0px;
+          height: 60px;
+          width: 60px;
+  }
+  .mail:hover{
+         opacity: 0.7;
+  }
+
+  .video{
+                  margin-top: 5%;
+                  height: 400px;
+                  box-shadow: 0px 8px 20px 0px; 
+               
+               
+  }
+  .videocontainer{
+              text-align: center;
+            
+     
+  }
+
+  .title{
+                  position: absolute;
+                  top: 20%;
+                  left: 50%;
+                  transform: translate(-50%, 50%);
+                  z-index: 1;
+                  font-size: 650%;
+                  
+  }
+/* about me */
+  .title-about{
+                   position: absolute;
+                    font-size: xx-large;
+                   top: 25%;
+                   left: 3%;
+                   cursor: default;
+                   color: white;
+
+  }
+.text-about{
+        position: absolute;
+            font-size: medium;
+            top: 33%;
+            left: 3%;
+            right: 58%;
+            border: solid slategrey;
+            border: 1;
+            border-width: 3px;
+            cursor: default;
+            color: white;
+
+}
+
+.mySlides{
+    position: absolute;
+    height: 500px;
+    width: 250px;
+    left: 65%;
+    top: 18%;
+    border: solid black;
+    border: 1;
+    box-shadow: 0px 8px 20px 0px;
+   
+      
+     
+}
+
+/* beanwars */
+.works-beanwars{
+          position: absolute;
+          font-size: xx-large;
+          top: 25%;
+          left: 3%;
+          cursor: default;
+          color: white;
+}
+.works{
+        position: absolute;
+        font-size: medium;
+        top: 31%;
+        left: 3%;
+        right: 58%;
+        border: solid slategrey;
+        border: 1;
+        border-width: 3px;
+        cursor: default;
+        color: white;
+
+}
+.beanwars{
+        position: absolute;
+        font-size: 75px;
+        top: 13%;
+        left: 39%;
+        cursor: default;
+        color: white;
+}
+
+.info-beanwars{
+        position: absolute;
+        font-size: xx-large;
+        top: 60%;
+        left: 3%;
+        cursor: default;
+        color: white;
+}
+.info{
+      position: absolute;
+      font-size: medium;
+      top: 66%;
+      left: 3%;
+      right: 58%;
+      border: solid slategrey;
+      border: 1;
+      border-width: 3px;
+      cursor: default;
+      color: white;
+}
+.img-beanwars{
+      position: absolute;
+      height: 225px;
+      width: 450px;
+      left: 65%;
+      top: 18%;
+      border: solid black;
+      border: 1;
+      box-shadow: 0px 8px 20px 0px;
+}
+
+.video-beanwars{
+   
+            margin-left: 63%;
+            margin-top: 20%;
+            height: 225px;
+            border: solid black;
+            border: 1;
+            box-shadow: 0px 8px 20px 0px;
+}
+/* pong */
+.works-pong{
+      position: absolute;
+      font-size: xx-large;
+      top: 25%;
+      left: 3%;
+      cursor: default;
+      color: white;
+}
+.text1-pong{
+    position: absolute;
+    font-size: medium;
+    top: 31%;
+    left: 3%;
+    right: 58%;
+    border: solid slategrey;
+    border: 1;
+    border-width: 3px;
+    cursor: default;
+    color: white;
+
+}
+.pong{
+    position: absolute;
+    font-size: 75px;
+    top: 13%;
+    left: 43%;
+    cursor: default;
+    color: white;
+}
+
+.info-pong{
+    position: absolute;
+    font-size: xx-large;
+    top: 60%;
+    left: 3%;
+    cursor: default;
+    color: white;
+}
+.text2-pong{
+  position: absolute;
+  font-size: medium;
+  top: 66%;
+  left: 3%;
+  right: 58%;
+  border: solid slategrey;
+  border: 1;
+  border-width: 3px;
+  cursor: default;
+  color: white;
+}
+.img-pong{
+  position: absolute;
+  height: 225px;
+  width: 450px;
+  left: 66%;
+  top: 18%;
+  border: solid black;
+  border: 1;
+  box-shadow: 0px 8px 20px 0px;
+}
+
+.video-pong{
+
+        margin-left: 65%;
+        margin-top: 20%;
+        height: 225px;
+        border: solid black;
+        border: 1;
+        box-shadow: 0px 8px 20px 0px;
+}
+/* 10 level parkour */
+
+.works-parkour{
+      position: absolute;
+      font-size: xx-large;
+      top: 25%;
+      left: 3%;
+      cursor: default;
+      color: white;
+}
+.text1-parkour{
+    position: absolute;
+    font-size: medium;
+    top: 31%;
+    left: 3%;
+    right: 58%;
+    border: solid slategrey;
+    border: 1;
+    border-width: 3px;
+    cursor: default;
+    color: white;
+
+}
+.parkour{
+    position: absolute;
+    font-size: 60px;
+    top: 13%;
+    left: 36%;
+    cursor: default;
+    color: white;
+}
+
+.info-parkour{
+    position: absolute;
+    font-size: xx-large;
+    top: 62%;
+    left: 3%;
+    cursor: default;
+    color: white;
+}
+.text2-parkour{
+  position: absolute;
+  font-size: medium;
+  top: 68%;
+  left: 3%;
+  right: 58%;
+  border: solid slategrey;
+  border: 1;
+  border-width: 3px;
+  cursor: default;
+  color: white;
+}
+.img-parkour{
+  position: absolute;
+  height: 225px;
+  width: 450px;
+  left: 66%;
+  top: 18%;
+  border: solid black;
+  border: 1;
+  box-shadow: 0px 8px 20px 0px;
+}
+
+.video-parkour{
+
+        margin-left: 65%;
+        margin-top: 20%;
+        height: 225px;
+        border: solid black;
+        border: 1;
+        box-shadow: 0px 8px 20px 0px;
+}
+
+
+
+
+
