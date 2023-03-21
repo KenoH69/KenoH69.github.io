@@ -9,7 +9,7 @@ head,body{
 /* home page */
 .homepage{
   
-    background: rgb(6, 140, 189);
+    background: #175263;
     height: 100px;
     width: 100%;   
     border-bottom: 2px solid black; 
@@ -67,7 +67,7 @@ head,body{
         top: 40%;
         left: 0%;
         border-color: white;
-        color: black;
+        color: white;
         font-family: impact;
         font-size: larger;  
         
@@ -184,8 +184,6 @@ head,body{
     margin-top: 20px;
   }
 
-
-
   .show {display:block;}
   .dropdown-content a:hover {background-color: white;}
   .dropdown:hover .dropdown-content {display: block;}
@@ -265,6 +263,19 @@ head,body{
     50% {
       border-color: transparent
     }
+  }
+  
+  .img-index{
+        position: absolute;
+        height: 250px;
+        width: 500px;
+        left: 60%;
+        top: 40%;
+        border: solid white;
+        
+        border: 1;
+        box-shadow: 0px 8px 20px 0px;
+       
   }
 
 /* about me */
