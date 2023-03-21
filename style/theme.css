@@ -1,7 +1,7 @@
 head,body{
       margin: 0px;
       padding: 0px;
-    background-color: darkslategrey;
+     background-color: black;
      background-size: fill;
      
      
@@ -9,7 +9,7 @@ head,body{
 /* home page */
 .homepage{
   
-    background: lightslategrey;
+    background: rgb(6, 140, 189);
     height: 100px;
     width: 100%;   
     border-bottom: 2px solid black; 
@@ -17,35 +17,47 @@ head,body{
     position: relative;
 }
 .home{
-    height: 50px;
-    width: 125px;
-    border-radius: 8px;
-    border: 0;
+  height: 50px;
+  width: 125px;
+  border-radius: 8px;
+  border: 1;
+  border-color: white;
+  background-color: black;
+  color: white;
+  font-family: impact;
+  font-size: larger;
+    
 }
 
 .home:hover{
-      background: darkslategrey;
-      color: white;
-      font-size: 16px;
-      transition: all 500ms ease;   
-      border: solid white;
-      cursor: pointer;
+        background: white;
+        color: black;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid black;
+        cursor: pointer;
 }
 .about{
     height: 50px;
     width: 125px;
     border-radius: 8px;
-    border: 0;
+    border: 1;
+    border-color: white;
+   background-color: black;
+   color: white;
+   font-family: impact;
+   font-size: larger;
+    
    
 
 }
 
 .about:hover{
-      background: darkslategrey;
-      color: white;
+      background: white;
+      color: black;
       font-size: 16px;
       transition: all 500ms ease;   
-      border: solid white;
+      border: solid black;
       cursor: pointer;
 
 }
@@ -54,6 +66,11 @@ head,body{
         font-size: large;
         top: 40%;
         left: 0%;
+        border-color: white;
+        color: black;
+        font-family: impact;
+        font-size: larger;  
+        
 }
 .english{
         position: absolute;
@@ -61,16 +78,20 @@ head,body{
         left: 6%;
         height: 30px; 
         border-radius: 8px;  
-        border: 0;      
+        border: 1;
+        border-color: white;
+        background-color: black;
+        color: white;
+        font-family: impact;
+        font-size: larger;    
 }
 .english:hover{
-        background: darkslategrey;
-        color: white;
+        background: white;
+        color: black;
         font-size: 16px;
         transition: all 500ms ease;   
-        border: solid white;
+        border: solid black;
         cursor: pointer;
-       
 }
 .dutch{
         position: absolute;
@@ -78,35 +99,45 @@ head,body{
         left: 11%;
         height: 30px;
         border-radius: 8px;
-        border: 0;
+        border: 1;
+        border-color: white;
+        background-color: black;
+        color: white;
+        font-family: impact;
+        font-size: larger;
 
 }
 .dutch:hover{
-        background: darkslategrey;
-        color: white;
+        background: white;
+        color: black;
         font-size: 16px;
         transition: all 500ms ease;   
-        border: solid white;
+        border: solid black;
         cursor: pointer;
 }
 .dropbtn {
     left: 66%;
     height: 50px;
-    width: 125px;
+    width: 150px;
     border-radius: 8px;
-    border: 0;
+    border: 1;
+    border-color: white;
+    background-color: black;
+    color: white;
     margin-left: 3px;
     cursor: pointer;    
+    font-family: impact;
+    font-size: larger;
   }
   
   
   .dropbtn:hover{
-    background: darkslategrey;
-    color: white;
-    font-size: 16px;
-    transition: all 500ms ease;   
-    border: solid white;
-    cursor: pointer;
+        background: white;
+        color: black;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid black;
+        cursor: pointer;
 
   }
   
@@ -120,19 +151,21 @@ head,body{
   
  
   .dropdown-content {  
-        background-color: slategrey;
+        background-color: white;
         display: none;
         min-width: 160px;
         box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
         z-index: 1;
+        font-family: impact;
   }
   
   .dropdown-content:hover{
-    background: darkslategrey;
-    font-size: 16px;
-    transition: all 500ms ease;   
-    border: solid white;
-    cursor: pointer;
+        background: darkgray;
+        color: white;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid black;
+        cursor: pointer;
   }
   
  
@@ -154,24 +187,31 @@ head,body{
 
 
   .show {display:block;}
-  .dropdown-content a:hover {background-color: slategrey;}
+  .dropdown-content a:hover {background-color: white;}
   .dropdown:hover .dropdown-content {display: block;}
 
   .visit{
     position: absolute;
     height: 50px;
-    width: 125px;
+    width: 150px;
     border-radius: 8px;
-    border: 0;
+    border: 1;
+    border-color: white;
+    background-color: black;
+    color: white;
+    font-family: impact;
+    font-size: larger;
     left: 45%;
     top: 85%;
+
   }
+
   .visit:hover{
-        background: darkslategrey;
-        color: white;
+        background: white;
+        color: black;
         font-size: 16px;
         transition: all 500ms ease;   
-        border: solid white;
+        border: solid black;
         cursor: pointer;
   }
 
@@ -196,37 +236,47 @@ head,body{
   .mail:hover{
          opacity: 0.7;
   }
-
-  .video{
-                  margin-top: 5%;
-                  height: 400px;
-                  box-shadow: 0px 8px 20px 0px; 
-               
-               
-  }
-  .videocontainer{
-              text-align: center;
-            
-     
-  }
-
+  
+/* title typ effect */
   .title{
                   position: absolute;
-                  top: 20%;
-                  left: 50%;
+                  color: white;
+                  top: 15%;
+                  left: 30%;
                   transform: translate(-50%, 50%);
                   z-index: 1;
-                  font-size: 650%;
-                  
+                  font-size: 800%;
+                 font-family: monospace;   
   }
+  .typing{
+         
+              width: 12ch;
+              animation: typing 2s steps(22), blink .5s step-end infinite alternate;
+              white-space: nowrap;
+              overflow: hidden;
+              border-right: 1px solid;
+  }
+  @keyframes typing {
+    from {
+      width: 0
+    }
+  }
+  @keyframes blink {
+    50% {
+      border-color: transparent
+    }
+  }
+
 /* about me */
   .title-about{
+                    color: white;
                    position: absolute;
                     font-size: xx-large;
                    top: 25%;
                    left: 3%;
                    cursor: default;
-                   color: white;
+
+                   
 
   }
 .text-about{
