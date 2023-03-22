@@ -279,16 +279,13 @@ head,body{
 
 /* about me */
   .title-about{
-                    color: white;
+                  color: white;
                    position: absolute;
                    font-size: 650%;
                    top: 25%;
                    left: 3%;
                    cursor: default;
                    font-family: monospace;   
-
-                   
-
   }
 .text-about{
            position: absolute;
@@ -296,26 +293,27 @@ head,body{
             top: 40%;
             left: 3%;
             right: 58%;
-            border: solid white;
-            border: 1;
-            border-width: 3px;
             cursor: default;
             color: white;
-
+}
+.line{
+          position: absolute;
+          font-size: medium;
+          top: 36%;
+          left: 3%;
+          right: 58%;
+          cursor: default;
+          color: white;       
 }
 
-.mySlides{
-    position: absolute;
-    height: 500px;
-    width: 250px;
-    left: 65%;
-    top: 18%;
-    border: solid black;
-    border: 1;
-    box-shadow: 0px 8px 20px 0px;
-   
-      
-     
+.img-about{
+            position: absolute;
+            height: 480px;
+            width: 400px;
+            left: 60%;
+            top: 17%;
+            border: solid white;
+            border: 1;  
 }
 
 /* beanwars */
@@ -333,9 +331,6 @@ head,body{
         top: 31%;
         left: 3%;
         right: 58%;
-        border: solid slategrey;
-        border: 1;
-        border-width: 3px;
         cursor: default;
         color: white;
 
@@ -347,6 +342,15 @@ head,body{
         left: 39%;
         cursor: default;
         color: white;
+}
+.lineBean{
+        position: absolute;
+        font-size: medium;
+        top: 28%;
+        left: 3%;
+        right: 58%;
+        cursor: default;
+        color: white;  
 }
 
 .info-beanwars{
@@ -363,9 +367,6 @@ head,body{
       top: 66%;
       left: 3%;
       right: 58%;
-      border: solid slategrey;
-      border: 1;
-      border-width: 3px;
       cursor: default;
       color: white;
 }
@@ -375,9 +376,8 @@ head,body{
       width: 450px;
       left: 65%;
       top: 18%;
-      border: solid black;
-      border: 1;
-      box-shadow: 0px 8px 20px 0px;
+      border: solid white;
+      border: 1;  
 }
 
 .video-beanwars{
@@ -385,9 +385,8 @@ head,body{
             margin-left: 63%;
             margin-top: 20%;
             height: 225px;
-            border: solid black;
-            border: 1;
-            box-shadow: 0px 8px 20px 0px;
+            border: solid white;
+            border: 1;  
 }
 /* pong */
 .works-pong{
@@ -404,9 +403,6 @@ head,body{
     top: 31%;
     left: 3%;
     right: 58%;
-    border: solid slategrey;
-    border: 1;
-    border-width: 3px;
     cursor: default;
     color: white;
 
@@ -434,9 +430,6 @@ head,body{
   top: 66%;
   left: 3%;
   right: 58%;
-  border: solid slategrey;
-  border: 1;
-  border-width: 3px;
   cursor: default;
   color: white;
 }
@@ -446,9 +439,8 @@ head,body{
   width: 450px;
   left: 66%;
   top: 18%;
-  border: solid black;
-  border: 1;
-  box-shadow: 0px 8px 20px 0px;
+  border: solid white;
+  border: 1;  
 }
 
 .video-pong{
@@ -456,9 +448,8 @@ head,body{
         margin-left: 65%;
         margin-top: 20%;
         height: 225px;
-        border: solid black;
-        border: 1;
-        box-shadow: 0px 8px 20px 0px;
+        border: solid white;
+        border: 1;  
 }
 /* 10 level parkour */
 
@@ -476,9 +467,6 @@ head,body{
     top: 31%;
     left: 3%;
     right: 58%;
-    border: solid slategrey;
-    border: 1;
-    border-width: 3px;
     cursor: default;
     color: white;
 
@@ -506,9 +494,6 @@ head,body{
   top: 68%;
   left: 3%;
   right: 58%;
-  border: solid slategrey;
-  border: 1;
-  border-width: 3px;
   cursor: default;
   color: white;
 }
@@ -518,9 +503,8 @@ head,body{
   width: 450px;
   left: 66%;
   top: 18%;
-  border: solid black;
-  border: 1;
-  box-shadow: 0px 8px 20px 0px;
+  border: solid white;
+  border: 1;  
 }
 
 .video-parkour{
@@ -528,12 +512,74 @@ head,body{
         margin-left: 65%;
         margin-top: 20%;
         height: 225px;
-        border: solid black;
-        border: 1;
-        box-shadow: 0px 8px 20px 0px;
+        border: solid white;
+        border: 1;  
+}
+/* ProjectPlay */
+.ProjectPlay{
+        position: absolute;
+        font-size: 60px;
+        top: 13%;
+        left: 40%;
+        cursor: default;
+        color: white;
 }
 
+.works-ProjectPlay{
+            position: absolute;
+            font-size: xx-large;
+            top: 25%;
+            left: 3%;
+            cursor: default;
+            color: white;
+}
 
+.text1-ProjectPlay{
+            position: absolute;
+            font-size: medium;
+            top: 31%;
+            left: 3%;
+            right: 58%;
+            cursor: default;
+            color: white;
+}
 
+.info-ProjectPlay{
+            position: absolute;
+            font-size: xx-large;
+            top: 62%;
+            left: 3%;
+            cursor: default;
+            color: white;
 
+}
+
+.text2-ProjectPlay{
+
+        position: absolute;
+        font-size: medium;
+        top: 68%;
+        left: 3%;
+        right: 58%;
+        cursor: default;
+        color: white;
+}
+.img-ProjectPlay{
+        position: absolute;
+        height: 225px;
+        width: 450px;
+        left: 66%;
+        top: 18%;
+        border: solid white;
+        border: 1;  
+}
+
+.video-ProjectPlay{
+
+          margin-left: 65%;
+          margin-top: 20%;
+          height: 225px;
+          border: solid white;
+          border: 1;  
+}
 
