@@ -139,7 +139,16 @@ head,body{
       z-index: 1; 
   }
   
- 
+  .dropbtn:hover{
+        background: white;
+        color: black;
+        font-size: 16px;
+        transition: all 500ms ease;   
+        border: solid black;
+        cursor: pointer;
+
+  }
+  
   .dropdown-content {  
         background-color: white;
         display: none;
@@ -572,4 +581,5 @@ head,body{
           border: solid white;
           border: 1;  
 }
+
 
